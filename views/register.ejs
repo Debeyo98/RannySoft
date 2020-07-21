@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand mx-5" href="#">RannySoft<alt="Logo"></a>
+      <button style="color: #fafafa;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="color: #fafafa;" class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/shop">Shop</a>
+                </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="account" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/login">Login</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/register">Register</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <form action="/register" class="mx-auto my-5" method="post">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="username">Store Name</label>
+                <input id="username" type="text" name="store_name" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email" class="form-control" required>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input id="confirm_password" type="password" name="confirm_password" class="form-control" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input id="address" type="address" name="address" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="phone_number">Phone Number</label>
+                <input id="phone_number" type="number" name="phone_number" class="form-control" required>
+              </div>
+            </div>
+          </div>
+            
+          <button class="btn btn-primary" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+
+
+
+<!-- =========================navbar and footer section================ -->
+    <div class="new-nav my-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-3">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mx-5">
+            <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+                </li>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+            <a class="navbar-brand mx-5" href="#"> <i class="fab fa-twitter"></i> <i class="fab fa-github"></i> <i class="fab fa-instagram"></i> <i class="fab fa-whatsapp"></i> <alt="Logo"></a>
+            <button style="color: #0000;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span style="color: #0000;" class="navbar-toggler-icon"></span>
+            </button>
+        
+        </div>
+    </nav>
+    </div>
+
+    <!-- =================================footer============================== -->
+
+    <div class="row mx-1">
+        <div class="col-md">
+        <footer class="text-center my-3">
+            <p class="colourless">Copyright &copy; 2020 All rights reserved by </p> 
+            <p style="color: blue">| RannySoft Technologies</p>
+            
+        </footer>
+    </div>
+    </div>
+
+
+        <script src="./js/jQuery v3.4.1.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+    
+</body>
+</html>
